@@ -12,7 +12,7 @@ def listNetworks():
 
 
 servername = input("생성할 서버의 이름을 입력해주세요:")
-servernum = int(input("몇 대의 서버를 생성할까요?"))
+servernum = int(input("몇 대의 서버를 생성할까요?:"))
 
 network_id = listNetworks()
 
