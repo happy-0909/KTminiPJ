@@ -29,7 +29,7 @@ def deployVirtualMachine():
             name=name_with_number
         )
         responses.append(response)
-        time.sleep(2)  # 각 VM을 생성한 후 2초 대기
+        time.sleep(2)  
     return responses
 
 result = deployVirtualMachine()
